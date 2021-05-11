@@ -1,0 +1,30 @@
+{
+  "name": "foggy-foam",
+  "version": "1.0.0",
+  "description": "A digital garden, I think",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "eleventy --serve --watch",
+	"clean": "del-cli _site",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyfelt/foggy-foam.git"
+  },
+  "author": "Jeremy Felt <jeremy.felt@gmail.com>",
+  "license": "SEE LICENSE IN license.md",
+  "bugs": {
+    "url": "https://github.com/jeremyfelt/foggy-foam/issues"
+  },
+  "homepage": "https://github.com/jeremyfelt/foggy-foam#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@kwvanderlinde/markdown-it-wikilinks": "^1.0.2",
+    "del-cli": "^3.0.1",
+    "markdown-it": "^12.0.6"
+  }
+}
