@@ -5,14 +5,17 @@ title: Foggy Garden
 
 # Foggy Garden
 
-This might be the home page.
+This is the garden's home.
 
-An [[inbox]] of ideas, accessible locally.
-
-Notes made [privately](personal/index.md) and [Happy Prime notes](happy-prime/index.md) are not publicly accessible. (And those links don't really work yet with my Eleventy config)
-
-But!
-
-Entry points:
+Public entry points:
 * [[crosswords]]
-* [Garden meta](meta/index.md)
+* [Garden meta](meta)
+* [Setting up a new Ubuntu server](new-server)
+
+Private entry points are not publicly accessible:
+* An [[inbox]] of ideas, accessible locally.
+* [Personal notes](personal/index.md)
+* [Happy Prime notes](happy-prime/index.md) are not publicly accessible.
+* (And those links don't really even work locally with my Eleventy config)
+
+More to come! I'm still figuring this out!
