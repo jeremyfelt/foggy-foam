@@ -2,3 +2,5 @@ readme.md
 .foam
 .vscode
 .eleventy.js
+node_modules
+_site

@@ -27,6 +27,7 @@ module.exports = ( eleventyConfig ) => {
     eleventyConfig.setLibrary('md', md);
 
 	eleventyConfig.addPassthroughCopy('assets');
+	eleventyConfig.setUseGitIgnore(false);
 
 	return {
 		dir: {

@@ -1,2 +1,11 @@
 node_modules
 _site
+
+# This is where to-be-organized thoughts go and probably doesn't belong in the main repo.
+inbox.md
+
+# This is where personal life notes go and will be in a private repo.
+personal/
+
+# This is where Happy Prime notes go and will be in a private repo.
+happy-prime/
