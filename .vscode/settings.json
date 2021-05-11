@@ -2,7 +2,7 @@
   "editor.minimap.enabled": false,
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
-  "editor.lineHeight": 24,
+  "editor.lineHeight": 20,
   "[markdown]": {
     "editor.quickSuggestions": true
   },
