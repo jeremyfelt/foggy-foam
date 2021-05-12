@@ -1,4 +1,4 @@
-# # Air quality
+# Air quality
 
 It'd be cool to have some PM2.5 air quality sensors in or around the house, especially during fire season. Every year I poke at commercially available products, but always want (a) something that I can grab data from easily over the network, but (b) something that doesn't phone home or only phones home to something I trust—effectively nothing.
 
