@@ -1,9 +1,30 @@
-# Garden meta
+# How does the garden grow?
+
+## Objective
+
+I want to edit the garden locally in markdown and publish it to WordPress.
+
+## Organization
+
+* Notes are written and published directly in WordPress at jeremyfelt.com with the Shortnotes plugin.
+* Pages are written in markdown and published in WordPress at foggy.garden via the REST API.
+* Blog posts are _______
+  * Daily / weekly journals seem to fit in a markdown workflow
+  * Not sure about others...
+* Comments on foggy.garden pages are handled via webmention.
+
+## Build scripts should
+
+- [ ] Transform all wiki-link style links into proper markdown links.
+- [ ] Transform markdown into HTML.
+- [ ] Transform HTML into WordPress block editor markup.
+- [ ] Identify matching post type, slug, and other attributes in WordPress.
+- [ ] Publish through the WordPress REST API.
 
 ## Static site generation
 
-- [ ] How should my garden be organized?
-- [ ] How to generate a proper RSS file from a specific directory?
+- [ ] What is the value in blog posts as part of jeremyfelt.com vs foggy.garden?
+- [ ] How to generate a proper RSS file from a specific directory on foggy.garden.
 - [ ] How to handle comments / webmentions / dynamic data storage?
 
 ## Markdown processing
