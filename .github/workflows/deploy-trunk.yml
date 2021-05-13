@@ -29,8 +29,9 @@ jobs:
       run: npm install
 
     - name: Grow the garden!
-      run: npm run build
-      run: ls ./_site
+      run: |
+        npm run build
+        ls -lrth ./_site
 
     - name: Sync _site directory
       run: |
