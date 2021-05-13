@@ -36,5 +36,5 @@ jobs:
     - name: Sync _site directory
       run: |
         rsync -chav --delete \
-        -e "-i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" \
+        -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" \
         ./_site/ ${{secrets.GARDEN_DEPLOY_USER}}@${{secrets.GARDEN_DEPLOY_HOST}}:${{secrets.GARDEN_DEPLOY_PATH}}
