@@ -1,0 +1,39 @@
+name: Garden Deployment
+
+on:
+  push:
+    branches: [ trunk ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Add SSH Key
+      run: |
+        mkdir -p ${HOME}/.ssh
+        echo "${{secrets.DEPLOY_KEY}}" > ${HOME}/.ssh/id_rsa
+        chmod 700 ${HOME}/.ssh
+        chmod 600 ${HOME}/.ssh/*
+        eval `ssh-agent -s`
+        ssh-add ${HOME}/.ssh/id_rsa
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install NPM dependencies
+      run: npm install
+
+    - name: Grow the garden!
+      run: npm run build
+      run: ls ./_site
+
+    - name: Sync _site directory
+      run: |
+        rsync -chav --delete \
+        -e "-i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" \
+        ./_site/ ${{secrets.GARDEN_DEPLOY_USER}}@${{secrets.GARDEN_DEPLOY_HOST}}:${{secrets.GARDEN_DEPLOY_PATH}}
