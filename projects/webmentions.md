@@ -1,5 +1,15 @@
 # Webmentions
 
+## Work log
+
+I've written a handful of posts while working with webmentions.
+
+* [Webmentions work log 20200117](https://jeremyfelt.com/2020/01/17/webmentions-work-log-20200117/)
+* [Webmentions work log 20200115](https://jeremyfelt.com/2020/01/15/webmentions-work-log-20200115/)
+* [Webmentions work log 20200113](https://jeremyfelt.com/2020/01/13/webmentions-work-log-20200113/)
+* [Working through displaying webmentions](https://jeremyfelt.com/2020/01/12/working-through-displaying-webmentions/)
+* [Now supporting Webmention](https://jeremyfelt.com/2020/01/06/now-supporting-webmention/)
+
 ## May 15th Webmention chat
 
 I attended the "[Webmentions Beyond Webmention.io](https://indieweb.org/2021/Pop-ups/Webmentions_Beyond_Webmention.io)" chat on May 15, 2021 and did a whole bunch of listening. The conversations sparked a bunch of thoughts in my head, but I don't have anything concrete to share yet.
