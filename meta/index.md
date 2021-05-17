@@ -23,7 +23,7 @@ I want to edit the garden locally in markdown and publish it to WordPress.
 
 Some of these probably exist, others may need to be written.
 
-- [ ] Run on any push to `trunk` in a GitHub action.
+- [x] Run on any push to `trunk` in a GitHub action.
 - [ ] Transform all wiki-link style links into proper markdown links.
 - [ ] (Temporarily) `rsync` `_site` directory to static location on foggy.garden server.
 - [ ] Transform markdown into HTML.
@@ -57,3 +57,7 @@ Some of these probably exist, others may need to be written.
 - [ ] A link like `[External title](https://jeremyfelt.com)` [External title](https://jeremyfelt.com) should transform to `https://jeremyfelt.com`.
 - [ ] A link like [Special title two](organization).
 - [ ] A link like `https://github.com/jeremyfelt/foggy-garden` should transform to its linked self.
+
+## What do I expect
+
+- [ ] I'd like filenames and slugs from something like [[digital garden]] to be `digital-garden` rather than `digital garden`.
