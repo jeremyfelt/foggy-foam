@@ -37,6 +37,7 @@ Some of these probably exist, others may need to be written.
 - [ ] How to generate a proper RSS file from a specific directory on foggy.garden.
 - [ ] How to handle comments / webmentions / dynamic data storage?
 - [ ] How are images handled if publishing from markdown to WordPress?
+- [ ] How accurate are build dates and times on publish? (hint: this is a test)
 
 ## Markdown processing
 - Markdown-it https://github.com/markdown-it/markdown-it
