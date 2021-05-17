@@ -9,7 +9,6 @@ date: Last Modified
 This is the garden's home. I also have a [regular website](https://jeremyfelt.com).
 
 Public entry points:
-* [[crosswords]]
 * [[projects]]
 * [Garden meta](meta)
 * [Setting up a new Ubuntu server](new-server)
