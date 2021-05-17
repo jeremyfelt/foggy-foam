@@ -1,3 +1,9 @@
+---
+layout: default.njk
+title: New Server | Foggy Garden
+date: Last Modified
+---
+
 # A new Ubuntu server
 
 ```

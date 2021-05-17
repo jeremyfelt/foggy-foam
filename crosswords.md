@@ -1,3 +1,9 @@
+---
+layout: default.njk
+title: Crosswords | Foggy Garden
+date: Last Modified
+---
+
 # Crosswords
 
 ## Self-tracking

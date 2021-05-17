@@ -4,3 +4,4 @@ readme.md
 .eleventy.js
 node_modules
 _site
+src

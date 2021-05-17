@@ -1,6 +1,7 @@
 ---
 layout: home.njk
 title: Foggy Garden
+date: Last Modified
 ---
 
 # Foggy Garden

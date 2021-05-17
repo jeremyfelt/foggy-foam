@@ -1,0 +1,192 @@
+
+:root {
+	--font-sans: 'Public Sans', sans-serif;
+
+	--font-size-small: 1rem;
+	--font-size-default: 1.25rem;
+	--font-size-medium: 1.5rem;
+	--font-size-large: clamp(1.5rem, 3vw, 2.25rem);
+	--font-size-larger: clamp(1.65rem, 4vw, 2.75rem);
+	--font-size-huge: clamp(2rem, 5vw, 3.75rem);
+
+	--letter-spacing: 0.075em;
+
+	--color-primary: hsl(246, 55%, 30%);
+	--color-primary-light: hsl(246, 55%, 95%);
+	--color-secondary: hsl(177, 31%, 30%);
+	--color-secondary-light: hsl(177, 31%, 95%);
+	--color-accent: hsl(36, 71%, 51%);
+	--color-alert: hsl(3, 75%, 43%);
+
+	--color-gray: hsl(30, 7%, 34%);
+	--color-gray-light: hsl(30, 7%, 95%);
+	--color-gray-dark: hsl(30, 7%, 11%);
+	--color-white: hsl(0, 0%, 100%);
+	--color-black: hsl(0, 0%, 0%);
+
+	--color-hover: var(--color-secondary);
+
+	--spacing: 1.5rem;
+
+	--spacing-050: calc(var(--spacing) / 2);
+	--spacing-1: var(--spacing);
+	--spacing-150: calc(var(--spacing) * 1.5);
+	--spacing-2: calc(var(--spacing) * 2);
+	--spacing-3: calc(var(--spacing) * 3);
+	--spacing-4: calc(var(--spacing) * 4);
+	--spacing-6: calc(var(--spacing) * 6);
+
+	--gutter: clamp(var(--spacing-050), 4vw, var(--spacing-3));
+
+	--max-width: 1400px;
+	--align-wide: 960px;
+	--max-content-width: calc(620px + (var(--gutter) * 2));
+
+	--border-radius: 2px;
+
+	--speed: 0.3s;
+	--radius: 3px;
+}
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+/* Set core root defaults */
+html[focus-within] {
+  scroll-behavior: smooth;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html[focus-within] {
+   scroll-behavior: auto;
+  }
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+	-webkit-animation-duration: 0.01ms !important;
+	        animation-duration: 0.01ms !important;
+	-webkit-animation-iteration-count: 1 !important;
+	        animation-iteration-count: 1 !important;
+	transition-duration: 0.01ms !important;
+	scroll-behavior: auto !important;
+  }
+}
+body {
+	font-family: 'Public Sans', sans-serif;
+	font-family: var(--font-sans);
+	font-size: 1.25rem;
+	font-size: var(--font-size-default);
+	font-weight: 400;
+	line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 700;
+	line-height: 1.15;
+	margin: 1em 0 0.5em 0;
+}
+h1 {
+	font-size: clamp(2rem, 5vw, 3.75rem);
+	font-size: var(--font-size-huge);
+	margin-top: 0;
+}
+h2 {
+	font-size: clamp(1.5rem, 3vw, 2.25rem);
+	font-size: var(--font-size-large);
+}
+h3 {
+	font-size: 1.5rem;
+	font-size: var(--font-size-medium);
+}
+h4 {
+	font-size: 1.25rem;
+	font-size: var(--font-size-default);
+}
+h5 {
+	font-size: 1rem;
+	font-size: var(--font-size-small);
+}
+strong {
+	font-weight: 700;
+}
+p,
+ol,
+ul {
+	margin: 1.25em 0;
+}
+li {
+	margin-left: 1.5rem;
+	margin-left: var(--spacing);
+}
+.last-modified {
+	font-size: 1rem;
+	font-size: var(--font-size-small);
+	font-style: italic;
+}
+.content-wrapper {
+	width: calc( 100% - (2 * clamp(calc(1.5rem / 2), 4vw, calc(1.5rem * 3))));
+	width: calc( 100% - (2 * var(--gutter)));
+	max-width: 1400px;
+	max-width: var(--max-width);
+	margin-left: clamp(calc(1.5rem / 2), 4vw, calc(1.5rem * 3));
+	margin-left: var(--gutter);
+	margin-right: clamp(calc(1.5rem / 2), 4vw, calc(1.5rem * 3));
+	margin-right: var(--gutter);
+}
+li,
+p {
+	max-width: 64ch;
+}

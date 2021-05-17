@@ -1,0 +1,56 @@
+body {
+	font-family: var(--font-sans);
+	font-size: var(--font-size-default);
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 700;
+	line-height: 1.15;
+	margin: 1em 0 0.5em 0;
+}
+
+h1 {
+	font-size: var(--font-size-huge);
+	margin-top: 0;
+}
+
+h2 {
+	font-size: var(--font-size-large);
+}
+
+h3 {
+	font-size: var(--font-size-medium);
+}
+
+h4 {
+	font-size: var(--font-size-default);
+}
+
+h5 {
+	font-size: var(--font-size-small);
+}
+
+strong {
+	font-weight: 700;
+}
+
+p,
+ol,
+ul {
+	margin: 1.25em 0;
+}
+
+li {
+	margin-left: var(--spacing);
+}
+
+.last-modified {
+	font-size: var(--font-size-small);
+	font-style: italic;
+}

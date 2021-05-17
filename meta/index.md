@@ -1,3 +1,9 @@
+---
+layout: default.njk
+title: Garden Meta | Foggy Garden
+date: Last Modified
+---
+
 # How does the garden grow?
 
 ## Objective
