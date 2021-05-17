@@ -1,6 +1,6 @@
 ---
 layout: default.njk
-title: Crosswords | Foggy Garden
+title: Crosswords | Projects | Foggy Garden
 date: Last Modified
 ---
 
