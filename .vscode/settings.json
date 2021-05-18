@@ -1,11 +1,18 @@
 {
   "editor.minimap.enabled": false,
-  "editor.wrappingIndent": "indent",
+  "editor.wrappingIndent": "same",
   "editor.overviewRulerBorder": false,
-  "editor.lineHeight": 20,
+  "editor.lineHeight": 23,
+  "editor.fontSize": 14,
   "[markdown]": {
-    "editor.quickSuggestions": true
+    "editor.quickSuggestions": true,
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 80,
+	"editor.fontFamily": "Public Sans",
+	"editor.fontSize": 18,
+	"editor.lineHeight": 27,
   },
+  "workbench.colorTheme":"Quiet Light",
   "files.defaultLanguage": "markdown",
   "files.exclude": {
     "**/node_modules": true
