@@ -13,9 +13,11 @@ date: Last Modified
 * [Mare of Easttown](https://en.wikipedia.org/wiki/Mare_of_Easttown), HBO, season 1
 * [Halston](https://en.wikipedia.org/wiki/Halston_(miniseries)), Netflix, season 1
 * [Peaky Blinders](https://en.wikipedia.org/wiki/Peaky_Blinders_(TV_series)), Netflix, season 5
-* [Black Spot](https://en.wikipedia.org/wiki/Black_Spot_(TV_series)), Netflix, season 1
-  * Started on May 18, 2021
-  * It's amusing the French title is Zone Blanche, or White Zone, and that was somehow translated into Black Spot for Netlfix in the US.
+* [Black Spot](https://en.wikipedia.org/wiki/Black_Spot_(TV_series)), Netflix, season 2
+  * Started season 1 on May 18, 2021
+  * Finished season 1 on May 25, 2021
+  * Started season 2 on May 25, 2021
+  * It's amusing the French title is Zone Blanche, or White Zone, and that was somehow translated into Black Spot for Netflix in the US.
 
 ### Waiting for
 
